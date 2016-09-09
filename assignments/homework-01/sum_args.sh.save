@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script prints the sum of the arguments received.
+#No error checking is done, and it assumes all arguments are intergers.
+#It expects to receive no more than 9 arguments.
