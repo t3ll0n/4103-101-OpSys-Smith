@@ -1,8 +1,8 @@
 #!/bin/bash
-#This script reads in all command line arguments and print out the sum of all
-#arguments. It assumes that the number of arguments is <=9 and that all arguments
-#are integers. No error checking is done except for ensuring that no more than 9
-#arguments are entered.
+#This script reads in all command line arguments and prints out the sum of all
+#arguments entered. It assumes that the number of arguments is <=9 and that all 
+#arguments are integers. No error checking is done except for ensuring that no
+#more than 9 arguments are entered.
 
 if [ $# -le 9 ]
 then 
@@ -19,7 +19,7 @@ then
 	#print results
 	echo $numbers"="$sum 
 else
-		#print error if arguments >9
-		echo "invalid argument. please enter no more than 9 arguments"
+	#print error if arguments >9
+	echo "invalid argument. please enter no more than 9 arguments"
 fi		
 
