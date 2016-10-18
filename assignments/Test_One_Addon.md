@@ -18,7 +18,7 @@
 
 **2. What common events lead to the creation of a process?**
 
-**-** Four common events lead to the creation of a process:
+- Four common events lead to the creation of a process:
 
 1. New batch job
 
@@ -34,7 +34,7 @@
 
 **4. What is swapping and what is its purpose?**
 
-**-** Move part or all of a process from main memory to disk, and vice versa. It provides for efficient use of main memory for process execution.
+- Move part or all of a process from main memory to disk, and vice versa. It provides for efficient use of main memory for process execution.
 
 **5. Why does Figure 3.9b have two blocked states?**
 
@@ -48,7 +48,7 @@ To accommodate this 2 by 2 combination, two Ready states and two Blocked states 
 
 **6. List four characteristics of a suspended process.**
 
-**-** The four characteristics of a suspended process are:
+- The four characteristics of a suspended process are:
 
 1. The process is not immediately available for execution.
 
@@ -70,11 +70,11 @@ To accommodate this 2 by 2 combination, two Ready states and two Blocked states 
 
 **8. Why are two modes (user and kernel) needed?**
 
-**-** The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In Kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
+- The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This is to protect the operating system from damage or alteration. In Kernel mode, the operating system does not have these restrictions, so that it can perform its tasks.
 
 **9. What is the difference between an interrupt and a trap?**
 
-**-** Interrupt is a signal to suspend the current execution and divert to the requested device. Trap is an unprogrammed conditional jump to a specified address that is automatically activated by hardware.
+- Interrupt is a signal to suspend the current execution and divert to the requested device. Trap is an unprogrammed conditional jump to a specified address that is automatically activated by hardware.
 
 **10. Give three examples of an interrupt.**
 
@@ -88,4 +88,4 @@ To accommodate this 2 by 2 combination, two Ready states and two Blocked states 
 
 **11. What is the difference between a mode switch and a process switch?**
 
-**-** A mode switch may occur without changing the state of the process that is currently in the running state whereas a process switch involves a state change.
+- A mode switch may occur without changing the state of the process that is currently in the running state whereas a process switch involves a state change.
