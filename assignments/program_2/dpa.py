@@ -1,9 +1,12 @@
+#!/usr/bin/env python
+
+"""
 #Name: Tellon Smith
 #Course: CMPS 4103-101 Intro to Operating Systems
 #Program Assignment: #2 
 #Due Date: November 8th 9:30 AM
+"""
 
-#!/usr/bin/env python
 import threading
 import os
 from os import system
